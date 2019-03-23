@@ -1,0 +1,1 @@
+/home/gabriel/Progetti/NativeScript/platforms/android/app/src/main/assets/app

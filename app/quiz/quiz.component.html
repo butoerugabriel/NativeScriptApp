@@ -1,0 +1,27 @@
+<GridLayout rows="auto, auto, *, auto" columns="*, auto" class="question-container"
+    padding="15">
+
+    <Label row="0" col="0" color="#fff" fontSize="15" fontWeight="bold"
+        [text]="'QUESTION ' + (currentQuestionIndex + 1) + '/' + questions.length"></Label>
+    <Label row="0" col="1" color="#fff" fontSize="15" fontWeight="bold" text="END"
+        (tap)="end()"></Label>
+
+    <GridLayout row="1" col="0" colSpan="2" id="question-meter-container">
+        <StackLayout id="question-meter" horizontalAlignment="left" [width]="(currentQuestionIndex * 100 / questions.length) + '%'">
+        </StackLayout>
+    </GridLayout>
+
+    <GridLayout row="2" col="0" colSpan="2" class="question-card"
+        [backgroundColor]="backgroundColor">
+        <Label verticalAlignment="center" horizontalAlignment="center"
+            textWrap="true" [text]="questions[currentQuestionIndex].question"></Label>
+    </GridLayout>
+
+    <GridLayout *ngIf="questions" row="3" col="0" colSpan="2" rows="*, *, *, *">
+        <GridLayout class="answer-button" *ngFor="let item of questions[currentQuestionIndex].options; let i = index"
+            [row]="i" (tap)="selectAnswer(i, $event)">
+            <Label textWrap="true" [text]="item"></Label>
+        </GridLayout>
+    </GridLayout>
+
+</GridLayout>

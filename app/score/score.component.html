@@ -1,0 +1,12 @@
+<GridLayout rows="*, auto" backgroundColor="#250046">
+
+    <StackLayout row="0" verticalAlignment="center">
+        <Label textAlignment="center" color="#fff" fontSize="20" text="YOUR SCORE"></Label>
+        <Label marginTop="30" textAlignment="center" color="#fff" fontSize="60"
+            fontWeight="bold" [text]="score + '%'"></Label>
+    </StackLayout>
+
+    <GridLayout row="1" class="homebutton" (tap)="navigateToHome()">
+        <Label text="MAIN MENU"></Label>
+    </GridLayout>
+</GridLayout>

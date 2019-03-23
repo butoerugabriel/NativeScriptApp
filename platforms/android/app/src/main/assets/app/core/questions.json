@@ -1,0 +1,472 @@
+{
+    "categories": [
+        {
+            "chapter": "Chapter 1",
+            "title": "Explore the Network",
+            "lastScore": "70%",
+            "backgroundColor": "#C0392B",
+            "image": "~/images/network.png",
+            "questions": [
+                {
+                    "question": "Which area of the network would a college IT staff most likely have to redesign as a direct result of many students bringing their own tablets and smartphones to school to access school resources?",
+                    "options": [
+                        "Intranet",
+                        "Wired LAN",
+                        "Wireless LAN",
+                        "Wireless WAN"
+                    ],
+                    "correctAnswerIndex": 2
+                },
+                {
+                    "question": "An employee at a branch office is creating a quote for a customer. In order to do this, the employee needs to access confidential pricing information from internal servers at the Head Office. What type of network would the employee access?",
+                    "options": [
+                        "An Intranet",
+                        "The Internet",
+                        "An Extranet",
+                        "A local area network"
+                    ],
+                    "correctAnswerIndex": 0
+                },
+                {
+                    "question": "Which term describes the state of a network when the demand on the network resources exceeds the available capacity?",
+                    "options": [
+                        "Convergence",
+                        "Congestion",
+                        "Optimization",
+                        "Syncronization"
+                    ],
+                    "correctAnswerIndex": 1
+                }
+            ]
+        },
+        {
+            "chapter": "Chapter 2",
+            "title": "Configure a Network Operating System",
+            "lastScore": "70%",
+            "backgroundColor": "#E74C3C",
+            "image": "~/images/configure.png",
+            "questions": [
+                {
+                    "question": "Which procedure is used to access a Cisco 2960 switch when performing an initial configuration in a secure environment?",
+                    "options": [
+                        "Use Telnet to remotely access the switch through the network",
+                        "Use the console port to locally access the switch from a serial or USB interface of the PC",
+                        "Use Secure Shell to remotely access the switch through the network",
+                        "Use the AUX port to locally access the switch from a serial or USB interface of the PC"
+                    ],
+                    "correctAnswerIndex": 1
+                },
+                {
+                    "question": "A router has a valid operating system and a configuration file stored in NVRAM. The configuration file contains an enable secret password but no console password. When the router boots up, which mode will display?",
+                    "options": [
+                        "global configuration mode",
+                        "setup mode",
+                        "privileged EXEC mode",
+                        "user EXEC mode"
+                    ],
+                    "correctAnswerIndex": 3
+                },
+                {
+                    "question": "Which router command allows you to view the entire contents of all access lists?",
+                    "options": [
+                        "Router# show interface",
+                        "Router> show ip interface",
+                        "Router# show access-lists",
+                        "Router> show all access-lists"
+                    ],
+                    "correctAnswerIndex": 2
+                }
+            ]
+        },
+        {
+            "chapter": "Chapter 3",
+            "title": "Network Protocols and Communications",
+            "lastScore": "70%",
+            "backgroundColor": "#9B59B6",
+            "image": "~/images/protocols.png",
+            "questions": [
+                {
+                    "question": "What process is used to place one message inside another message for transfer from the source to the destination?",
+                    "options": [
+                        "access control",
+                        "decoding",
+                        "encapsulation",
+                        "flow control"
+                    ],
+                    "correctAnswerIndex": 2
+                },
+                {
+                    "question": "A web client is sending a request for a webpage to a web server. From the perspective of the client, what is the correct order of the protocol stack that is used to prepare the request for transmission?",
+                    "options": [
+                        "HTTP, IP, TCP, Ethernet",
+                        "HTTP, TCP, IP, Ethernet",
+                        "Ethernet, TCP, IP, HTTP",
+                        "Ethernet, IP, TCP, HTTP\n"
+                    ],
+                    "correctAnswerIndex": 1
+                },
+                {
+                    "question": "Which statement is true about the TCP/IP and OSI models?",
+                    "options": [
+                        "The TCP/IP transport layer and OSI Layer 4 provide similar services and functions.",
+                        "The TCP/IP network access layer has similar functions to the OSI network layer",
+                        "The OSI Layer 7 and the TCP/IP application layer provide identical functions",
+                        "The first three OSI layers describe general services that are also provided by the TCP/IP internet layer"
+                    ],
+                    "correctAnswerIndex": 0
+                }
+            ]
+        },
+        {
+            "chapter": "Chapter 4",
+            "title": "Network Access",
+            "lastScore": "70%",
+            "backgroundColor": "#8E44AD",
+            "image": "~/images/access.png",
+            "questions": [
+                {
+                    "question": "Which characteristic describes crosstalk?",
+                    "options": [
+                        "the distortion of the network signal from fluorescent lighting",
+                        "the distortion of the transmitted messages from signals carried in adjacent wires",
+                        "the weakening of the network signal over long cable lengths",
+                        "the loss of wireless signal over excessive distance from the access point"
+                    ],
+                    "correctAnswerIndex": 1
+                },
+                {
+                    "question": "Which layer of the OSI model is responsible for specifying the encapsulation method used for specific types of media?",
+                    "options": [
+                        "application",
+                        "transport",
+                        "data link",
+                        "physical"
+                    ],
+                    "correctAnswerIndex": 2
+                },
+                {
+                    "question": "Which method of data transfer allows information to be sent and received at the same time?",
+                    "options": [
+                        "full duplex",
+                        "half duplex",
+                        "multiplex",
+                        "simplex"
+                    ],
+                    "correctAnswerIndex": 0
+                }
+            ]
+        },
+        {
+            "chapter": "Chapter 5",
+            "title": "Ethernet",
+            "lastScore": "70%",
+            "backgroundColor": "#2980B9",
+            "image": "~/images/cable.png",
+            "questions": [
+                {
+                    "question": "Which statement is true about MAC addresses?",
+                    "options": [
+                        "MAC addresses are implemented by software",
+                        "A NIC only needs a MAC address if connected to a WAN",
+                        "The first three bytes are used by the vendor assigned OUI",
+                        "The ISO is responsible for MAC addresses regulations"
+                    ],
+                    "correctAnswerIndex": 2
+                },
+                {
+                    "question": "Which destination address is used in an ARP request frame?",
+                    "options": [
+                        "255.255.255.255",
+                        "FFFF.FFFF.FFFF",
+                        "127.0.0.1",
+                        "01-00-5E-00-AA-23"
+                    ],
+                    "correctAnswerIndex": 1
+                },
+                {
+                    "question": "Which switching method uses the CRC value in a frame?",
+                    "options": [
+                        "cut-through",
+                        "fast-forward",
+                        "fragment-free",
+                        "store-and-forward"
+                    ],
+                    "correctAnswerIndex": 3
+                }
+            ]
+        },
+        {
+            "chapter": "Chapter 6",
+            "title": "Network Layer",
+            "lastScore": "70%",
+            "backgroundColor": "#3498DB",
+            "image": "~/images/ethernet1.png",
+            "questions": [
+                {
+                    "question": "Which characteristic of the network layer in the OSI model allows carrying packets for multiple types of communications among many hosts?",
+                    "options": [
+                        "The de-encapsulation of headers from lower layers",
+                        "The selection of paths for and direct packets toward the destination",
+                        "The ability to operate without regard to the data that is carried in each packet",
+                        "The ability to manage the data transport between processes running on hosts"
+                    ],
+                    "correctAnswerIndex": 2
+                },
+                {
+                    "question": "Which field in the IPv4 header is used to prevent a packet from traversing a network endlessly?",
+                    "options": [
+                        "Time-to-Live",
+                        "Sequence Number",
+                        "Acknowledgment Number",
+                        "Differentiated Services"
+                    ],
+                    "correctAnswerIndex": 0
+                },
+                {
+                    "question": "What is one advantage that the IPv6 simplified header offers over IPv4?",
+                    "options": [
+                        "Smaller-sized header",
+                        "Little requirement for processing checksums",
+                        "Smaller-sized source and destination IP addresses",
+                        "Efficient packet handling"
+                    ],
+                    "correctAnswerIndex": 3
+                }
+            ]
+        },
+        {
+            "chapter": "Chapter 7",
+            "title": "IP Addressing",
+            "lastScore": "70%",
+            "backgroundColor": "#1ABC9C",
+            "image": "~/images/ip.png",
+            "questions": [
+                {
+                    "question": "How many bits are in an IPv4 address?",
+                    "options": [
+                        "32",
+                        "64",
+                        "128",
+                        "256"
+                    ],
+                    "correctAnswerIndex": 0
+                },
+                {
+                    "question": "What command will permit SMTP mail to only host 1.1.1.1?",
+                    "options": [
+                        "access-list 10 permit smtp host 1.1.1.1",
+                        "access-list 110 permit ip smtp host 1.1.1.1",
+                        "access-list 10 permit tcp any host 1.1.1.1 eq smtp",
+                        "access-list 110 permit tcp any host 1.1.1.1 eq smtp"
+                    ],
+                    "correctAnswerIndex": 3
+                },
+                {
+                    "question": "What does the IP address 172.17.4.250/24 represent?",
+                    "options": [
+                        "Network address",
+                        "Multicast address",
+                        "Host address",
+                        "Broadcast address"
+                    ],
+                    "correctAnswerIndex": 2
+                }
+            ]
+        },
+        {
+            "chapter": "Chapter 8",
+            "title": "Subnetting IP Networks",
+            "lastScore": "70%",
+            "backgroundColor": "#16A085",
+            "image": "~/images/ip2.png",
+            "questions": [
+                {
+                    "question": "What is a result of connecting two or more switches together?",
+                    "options": [
+                        "The number of broadcast domains is increased",
+                        "The size of the broadcast domain is increased",
+                        "The number of collision domains is reduced",
+                        "he size of the collision domain is increased"
+                    ],
+                    "correctAnswerIndex": 1
+                },
+                {
+                    "question": "If a network device has a mask of /28, how many IP addresses are available for hosts on this network?",
+                    "options": [
+                        "62",
+                        "32",
+                        "16",
+                        "14"
+                    ],
+                    "correctAnswerIndex": 3
+                },
+                {
+                    "question": "How many host addresses are available on the network 172.16.128.0 with a subnet mask of 255.255.252.0?",
+                    "options": [
+                        "1022",
+                        "1024",
+                        "2046",
+                        "2048"
+                    ],
+                    "correctAnswerIndex": 2
+                }
+            ]
+        },
+        {
+            "chapter": "Chapter 9",
+            "title": "Transport Layer",
+            "lastScore": "70%",
+            "backgroundColor": "#27AE60",
+            "image": "~/images/loadbalancer.png",
+            "questions": [
+                {
+                    "question": "What happens if part of an FTP message is not delivered to the destination?",
+                    "options": [
+                        "The message is lost because FTP does not use a reliable delivery method",
+                        "The FTP source host sends a query to the destination host",
+                        "The part of the FTP message that was lost is re-sent",
+                        "The entire FTP message is re-sent"
+                    ],
+                    "correctAnswerIndex": 2
+                },
+                {
+                    "question": "What type of information is included in the transport header?",
+                    "options": [
+                        "Destination and source logical addresses",
+                        "Destination and source physical addresses",
+                        "Destination and source port numbers",
+                        "Encoded application data"
+                    ],
+                    "correctAnswerIndex": 2
+                },
+                {
+                    "question": "What is a socket?",
+                    "options": [
+                        "The combination of the source and destination IP address and source and destination Ethernet address",
+                        "The combination of a source IP address and port number or a destination IP address and port number",
+                        "The combination of the source and destination sequence and acknowledgment numbers",
+                        "The combination of the source and destination sequence numbers and port numbers"
+                    ],
+                    "correctAnswerIndex": 1
+                }
+            ]
+        },
+        {
+            "chapter": "Chapter 10",
+            "title": "Application Layer",
+            "lastScore": "70%",
+            "backgroundColor": "#2ECC71",
+            "image": "~/images/window.png",
+            "questions": [
+                {
+                    "question": "Which application layer protocol uses message types such as GET, PUT, and POST?",
+                    "options": [
+                        "HTTP",
+                        "POP3",
+                        "DHCP",
+                        "SMTP"
+                    ],
+                    "correctAnswerIndex": 0
+                },
+                {
+                    "question": "Which protocol is used by a client to communicate securely with a web server?",
+                    "options": [
+                        "SMB",
+                        "HTTPS",
+                        "SMTP",
+                        "IMAP"
+                    ],
+                    "correctAnswerIndex": 1
+                },
+                {
+                    "question": "What is true about the Server Message Block protocol?",
+                    "options": [
+                        "Different SMB message types have a different format",
+                        "Clients establish a long term connection to servers",
+                        "SMB messages cannot authenticate a session",
+                        "SMB uses the FTP protocol for communication"
+                    ],
+                    "correctAnswerIndex": 1
+                }
+            ]
+        },
+        {
+            "chapter": "Chapter 11",
+            "title": "Build a small network",
+            "lastScore": "70%",
+            "backgroundColor": "#F1C40F",
+            "image": "~/images/online.png",
+            "questions": [
+                {
+                    "question": "Which network design consideration would be more important to a large corporation than to a small business?",
+                    "options": [
+                        "Internet router",
+                        "Firewall",
+                        "Low port density switch",
+                        "Redundancy"
+                    ],
+                    "correctAnswerIndex": 3
+                },
+                {
+                    "question": "Some routers and switches in a wiring closet malfunctioned after an air conditioning unit failed. What type of threat does this situation describe?",
+                    "options": [
+                        "Configuration",
+                        "Environmental",
+                        "Electrical",
+                        "Maintenance"
+                    ],
+                    "correctAnswerIndex": 1
+                },
+                {
+                    "question": "Which type of network threat is intended to prevent authorized users from accessing resources?",
+                    "options": [
+                        "DoS attacks",
+                        "Access attacks",
+                        "Reconnaissance attacks",
+                        "Trust exploitation"
+                    ],
+                    "correctAnswerIndex": 0
+                }
+            ]
+        },
+        {
+            "chapter": "Chapter 12",
+            "title": "Final exam",
+            "lastScore": "70%",
+            "backgroundColor": "#F39C12",
+            "image": "~/images/degree.png",
+            "questions": [
+                {
+                    "question": "Which keys act as a hot key combination that is used to interrupt an IOS process?",
+                    "options": [
+                        "Ctrl-Shift-X",
+                        "Ctrl-Shift-6",
+                        "Ctrl-Z",
+                        "Ctrl-C"
+                    ],
+                    "correctAnswerIndex": 1
+                },
+                {
+                    "question": "What is the purpose of the SVI on a Cisco switch?",
+                    "options": [
+                        "The SVI provides a physical interface for remote access to the switch",
+                        "The SVI provides a faster method for switching traffic between ports on the switch",
+                        "The SVI adds Layer 4 connectivity between VLANs",
+                        "The SVI provides a virtual interface for remote access to the switch"
+                    ],
+                    "correctAnswerIndex": 3
+                },
+                {
+                    "question": "What type of communication medium is used with a wireless LAN connection?",
+                    "options": [
+                        "Fiber",
+                        "Radio waves",
+                        "Microwaves",
+                        "UTP"
+                    ],
+                    "correctAnswerIndex": 1
+                }
+            ]
+        }
+    ]
+}
